@@ -1,0 +1,13 @@
+.stu-list {
+    display: flex;
+    justify-content: center;
+}
+
+.stu-list-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    justify-items: center;
+}

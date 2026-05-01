@@ -1,0 +1,23 @@
+.dash-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.stat-card {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    background: #fff;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}

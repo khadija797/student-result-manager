@@ -1,0 +1,63 @@
+.stu-card {
+  background: white;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+
+  transition: 0.2s ease;
+}
+
+.stu-card:hover {
+  transform: translateY(-3px);
+}
+
+/* text styling */
+.stu-card h3 {
+  margin-bottom: 6px;
+}
+
+.stu-card p {
+  margin: 5px 0;
+}
+
+/* result styles */
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.stu-card button {
+  margin: 8px 5px 0 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #0056b3;
+}
+
+.del-btn {
+  background: red;
+  color: white;
+}
+
+.del-btn:hover {
+  background: darkred;
+}
